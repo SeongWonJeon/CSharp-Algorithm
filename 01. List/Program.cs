@@ -1,4 +1,6 @@
-﻿namespace _01._List
+﻿using System.Net.NetworkInformation;
+
+namespace _01._List
 {
     internal class Program
     {
@@ -72,6 +74,9 @@
         {
             List<string> list = new List<string>();
 
+            /*list.Count; // 가지고있는 개수를 표시
+            list.Capacity; // 크기를 조정하지않고 가질 수 있는
+            */
             list.Add("1번 데이터");
             list.Add("2번 데이터");
             list.Add("3번 데이터");
@@ -96,6 +101,24 @@
 
             string? findValue = list.Find(x => x.Contains('4'));
             int findIndex = list.FindIndex(x => x.Contains('1'));
+
+            DataStructure.List<string> lists = new DataStructure.List<string>();
+            lists.Add("1번 데이터");
+            lists.Add("2번 데이터");
+            lists.Add("3번 데이터");
+            lists.Add("4번 데이터");
+            lists.Add("5번 데이터");
+
+            lists.Remove("2번 데이터");
+            lists.RemoveAt(0);
+
+            lists[0] = "첫번째 데이터";
+            string str = lists[0];
+
+            for(int i = 0; i < lists.Count; i++)
+            {
+                Console.WriteLine(lists[i]);
+            }
         }
     }
 }
