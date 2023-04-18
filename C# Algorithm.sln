@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00. Algorithm", "C# Algorithm\00. Algorithm.csproj", "{82F73CEF-AF8B-4C81-BB24-2A9B6A57342F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00. Algorithm", "C# Algorithm\00. Algorithm.csproj", "{82F73CEF-AF8B-4C81-BB24-2A9B6A57342F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. List", "01. List\01. List.csproj", "{95605932-9E5F-4E03-92DB-A77A53095C92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. List", "01. List\01. List.csproj", "{95605932-9E5F-4E03-92DB-A77A53095C92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HomeWork", "HomeWork", "{996FA497-EA90-4866-9FD1-5BAFF9B4529C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork", "HomeWork\HomeWork.csproj", "{78173CF9-2E02-4080-81F8-108101EA16D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{95605932-9E5F-4E03-92DB-A77A53095C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95605932-9E5F-4E03-92DB-A77A53095C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95605932-9E5F-4E03-92DB-A77A53095C92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78173CF9-2E02-4080-81F8-108101EA16D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78173CF9-2E02-4080-81F8-108101EA16D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78173CF9-2E02-4080-81F8-108101EA16D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78173CF9-2E02-4080-81F8-108101EA16D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78173CF9-2E02-4080-81F8-108101EA16D7} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6837CE1-1347-4004-BCBA-84856C297AE0}

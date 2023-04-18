@@ -79,6 +79,7 @@ namespace DataStructure
             size--;
             Array.Copy(items, index + 1, items, index, size - index);
         }
+
         public int IndexOf(T item)
         {
             return Array.IndexOf(items, item, 0, size);
