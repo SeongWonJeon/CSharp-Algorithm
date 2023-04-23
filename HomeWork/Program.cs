@@ -8,23 +8,33 @@ namespace HomeWork
     {
         static void Main(string[] args)
         {
-            // List 동적배열에 int만을 받아 정해지지않은 배열을 만들어줍니다.
-            List<int> list = new List<int>();
+            HomeWork.List<int> list = new HomeWork.List<int>();
+            for (int i = 0; i < 5; i++) list.Add(i);
 
-            // list.Add를 통해 list에 0번째부터 어떤 int를 담을지 정하는 방법입니다.
-            list.Add(1);
-            // [0]번째 배열에 1
-            list.Add(4);
-            // [1]번째 배열에 4
-            list.Add(7);
-            // [2]번쨰 배열에 7
-            list.Add(10);
-            // [3]번째 배열에 10
-            list.Add(5);
-            // [4]번째 배열에 5
+            foreach (int i in list)
+            {
+                Console.WriteLine(i);
+            }
 
 
-            list.IndexOf(1);
+
+            HomeWork.LinkedList<int> lists = new HomeWork.LinkedList<int>();
+            for (int u = 0; u < 5; u++) list.Add(u);
+
+            foreach (int u in lists)
+            {
+                Console.WriteLine(u);
+            }
+
+
+
+            HomeWork.Stack<int> stack = new HomeWork.Stack<int>();
+            for (int i = 0; i < 5; i++) { stack.Push(i); }
+
+            Console.WriteLine(stack.Pop());
+            Console.WriteLine(stack.Peek());
+            stack.Clear();
+            Console.WriteLine(stack.Peek());
         }
     }
 }
