@@ -50,7 +50,7 @@
 
         static void Main(string[] args)
         {
-            DetaStructure.LinkedList<string> linkedList = new DetaStructure.LinkedList<string>();
+            /*DetaStructure.LinkedList<string> linkedList = new DetaStructure.LinkedList<string>();
 
             // 링크드리스트 요소 삽입
             linkedList.AddFirst("0번 앞데이터");
@@ -73,7 +73,7 @@
             linkedList.AddAfter(findNode, "찾은노드 뒤데이터");
 
             // 링크드리스트 노드를 통한 삭제
-            linkedList.Remove(findNode);
+            linkedList.Remove(findNode);*/
         }
     }
 }

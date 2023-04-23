@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HomeWork
+namespace Iterator
 {
-    internal class List<T> : IEnumerable<T>
+    public class List<T> : IEnumerable<T>
     {
 
         private const int CountCapacity = 5;
@@ -25,24 +25,6 @@ namespace HomeWork
 
         // List의 배열이 가지고있는 길이를 나타낸다.
         public int Count { get { return size; } }
-
-        public T this[int index]
-        {
-            get
-            {
-                if (index < 0 || index >= items.Length)
-                    throw new IndexOutOfRangeException();
-
-                return this.items[index];
-            }
-            set
-            {
-                if (index < 0 || index >= items.Length)
-                    throw new IndexOutOfRangeException();
-
-                this.items[index] = value;
-            }
-        }
 
         /// <summary>
         /// 배열의 요소에 수를 넣습니다.
@@ -167,64 +149,70 @@ namespace HomeWork
             return default(T);
         }
 
-        // 이렇게 하면 foreach 루프를 사용하여 컬렉션의 요소를 반복할 수 있습니다
-        public IEnumerator<T> GetEnumerator() // GetEnumerator메서드는 컬렉션을 반복할 수 있는 열거자(enumerator)를 반환
+        public IEnumerator<T> GetEnumerator()
         {
-            return new Enumerator(this);        // Enumerator클래스의 인스턴스를 반환
+            return new Enumerator();
         }
-        // 이 메서드는 IEnumerator 인터페이스를 구현하는 Enumerator 클래스의 인스턴스를 반환
+
         IEnumerator IEnumerable.GetEnumerator()
         {
-            return new Enumerator(this);
+            return new Enumerator();
         }
-        // class로 해도 되지만 구조체로 보통 하기에 구조체로 하셨다.
+
         public struct Enumerator : IEnumerator<T>
         {
-            // Enumerator가 어떤 리스트를 가르키고있는지를 list로 체크
             private List<T> list;
-            // indedx를 통해서 어디를 가르키고있는지 체크
             private int index;
-            // 지금 가르키는 값
+
+            // 이전에 대한 값을 보관
             private T current;
 
-            public T Current { get { return current; } }
-            public Enumerator(List<T> list)
+            internal Enumerator(List<T> list)
             {
                 this.list = list;
-                this.index = 0;
+                this.index = -1;
                 this.current = default(T);
             }
-           
-            object IEnumerator.Current { get { return current; } }
-            // MoveNext로 다음으로 넘어가도록 만듦
+
+            // index가 있는 곳을 가리킨다.
+            public T Current { get { return current; } }
+
+            // 어떤자료가 들어올지는 모르겠지만 오브잭트 타입의 자료형을 갖는다.
+            object IEnumerator.Current
+            {
+                get
+                {
+                    if (index < 0 || index >= list.Count)
+                        throw new InvalidOperationException();
+                    return Current;
+                }
+            }
+
+            public void Dispose() { }
+
+            // 다음으로 넘어간다.
             public bool MoveNext()
             {
-                // 만약 리스트의 마지막 전까지는 시도할 수 있지만
-                if (index < list.Count - 1)
+                // 다만 가작 마지막이 아닌 
+                if (index < list.Count)
                 {
-                    current = list[index++];
                     index++;
                     return true;
                 }
-                else // 넘어간다면 false를 반환
+                else
                 {
                     current = default(T);
+                    index = list.Count;
                     return false;
                 }
             }
-
+            // default(T)는 
             public void Reset()
             {
-                // index는 가르키고있는 위치이니까 Reset을 가르키고 있는 위치를 [0]으로 만들면 된다
-                index = 0;
+                // 가리키고 있는 곳
+                index = -1;
                 current = default(T);
             }
-
-            public void Dispose()
-            {
-                
-            }
         }
-       
     }
 }

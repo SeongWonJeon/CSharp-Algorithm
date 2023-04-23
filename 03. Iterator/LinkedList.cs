@@ -4,11 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Xml.Linq;
 
-namespace HomeWork
+namespace Iterator
 {
-    public class LinkedListNumbers<T>
+    public class LinkedListNumbers<T> 
     {
         // 노드가 속해있는 리스트를 담는 변수
         internal LinkedList<T> list;
@@ -66,6 +65,8 @@ namespace HomeWork
         public T Item { get { return item; } set { item = value; } }
 
         public T? Value { get; internal set; }
+
+        
     }
     /// <summary>
     /// 데이터를 연속된 노드형태로 저장할 수 있는 구조이다.
@@ -298,7 +299,6 @@ namespace HomeWork
 
             return null;
         }
-
         public IEnumerator<T> GetEnumerator()
         {
             return new Enumerator(this);
@@ -308,11 +308,11 @@ namespace HomeWork
         {
             return new Enumerator(this);
         }
-
+        // 반복기같은 경우에는 구조체로 해주는게 좋읗 거 같다고 하셨다
         public struct Enumerator : IEnumerator<T>
         {
             private LinkedList<T> linkedList;
-            private LinkedListNumbers<T> node;
+            private LinkedListNode<T> node;
             private int index;
             private T current;
 
@@ -338,7 +338,6 @@ namespace HomeWork
 
             public void Dispose() { }
 
-            // MoveNext로 다음 노드로 넘어가게 만들기
             public bool MoveNext()
             {
                 if (index < linkedList.Count)
@@ -360,6 +359,7 @@ namespace HomeWork
                 index = 0;
                 current = default(T);
             }
+
         }
     }
 }
