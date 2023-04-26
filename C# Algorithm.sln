@@ -21,14 +21,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Queue", "05. Queue\05. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Heap", "06. Heap\06. Heap.csproj", "{E03ECD74-4A8B-48E4-BA50-B6C08DC6EBD5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. BinarySearchTree", "..\..\..\Downloads\07. BinarySearchTree\07. BinarySearchTree\07. BinarySearchTree.csproj", "{56EE2FC2-E504-41D3-A868-DF286B45A7FB}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StudyContents", "StudyContents", "{A044A5A5-9029-460F-96CD-CBE009CE0964}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. BinarySearchTree", "07. BinarySearchTree", "{786828AB-C64D-48F7-A7E7-0A50D4A66422}"
 	ProjectSection(SolutionItems) = preProject
 		HomeWork\BinarySearchTree.cs = HomeWork\BinarySearchTree.cs
 		HomeWork\이진탐색트리의 한계점과 극복방법.txt = HomeWork\이진탐색트리의 한계점과 극복방법.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. BinarySearchTree", "07.BinarySearchTree\07. BinarySearchTree.csproj", "{0992FDF7-E041-457E-946F-7D5AE847A036}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. HashTable", "08. HashTable\08. HashTable.csproj", "{54FEEFAF-0997-485F-94A8-FF9A9F908A06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. HeshTable", "08. HeshTable", "{2E715E9D-041E-4139-A597-EEC83B08947E}"
+	ProjectSection(SolutionItems) = preProject
+		HomeWork\08. HeshTable.cs = HomeWork\08. HeshTable.cs
+		HomeWork\08. 해싱과 해시함.txt = HomeWork\08. 해싱과 해시함.txt
 	EndProjectSection
 EndProject
 Global
@@ -69,10 +77,14 @@ Global
 		{E03ECD74-4A8B-48E4-BA50-B6C08DC6EBD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E03ECD74-4A8B-48E4-BA50-B6C08DC6EBD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E03ECD74-4A8B-48E4-BA50-B6C08DC6EBD5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{56EE2FC2-E504-41D3-A868-DF286B45A7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56EE2FC2-E504-41D3-A868-DF286B45A7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56EE2FC2-E504-41D3-A868-DF286B45A7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56EE2FC2-E504-41D3-A868-DF286B45A7FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0992FDF7-E041-457E-946F-7D5AE847A036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0992FDF7-E041-457E-946F-7D5AE847A036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0992FDF7-E041-457E-946F-7D5AE847A036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0992FDF7-E041-457E-946F-7D5AE847A036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54FEEFAF-0997-485F-94A8-FF9A9F908A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54FEEFAF-0997-485F-94A8-FF9A9F908A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54FEEFAF-0997-485F-94A8-FF9A9F908A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54FEEFAF-0997-485F-94A8-FF9A9F908A06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,8 +98,10 @@ Global
 		{683192C2-8565-42F7-9BFA-EB3845800DF6} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
 		{D6B4CCCE-F672-4B79-A89B-95A2FC14C77E} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
 		{E03ECD74-4A8B-48E4-BA50-B6C08DC6EBD5} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
-		{56EE2FC2-E504-41D3-A868-DF286B45A7FB} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
 		{786828AB-C64D-48F7-A7E7-0A50D4A66422} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
+		{0992FDF7-E041-457E-946F-7D5AE847A036} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
+		{54FEEFAF-0997-485F-94A8-FF9A9F908A06} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
+		{2E715E9D-041E-4139-A597-EEC83B08947E} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6837CE1-1347-4004-BCBA-84856C297AE0}
