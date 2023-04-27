@@ -39,6 +39,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. HeshTable", "08. HeshTa
 		HomeWork\08. 해싱과 해시함.txt = HomeWork\08. 해싱과 해시함.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. DesignTechnique", "09. DesignTechnique\09. DesignTechnique.csproj", "{C2C24DA2-4885-48AF-B8C6-2BEF9E8D837F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. DesignTechnique", "09. DesignTechnique", "{515D4288-5766-4242-BE9B-7F46AA3CD826}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +89,10 @@ Global
 		{54FEEFAF-0997-485F-94A8-FF9A9F908A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54FEEFAF-0997-485F-94A8-FF9A9F908A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54FEEFAF-0997-485F-94A8-FF9A9F908A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C24DA2-4885-48AF-B8C6-2BEF9E8D837F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C24DA2-4885-48AF-B8C6-2BEF9E8D837F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C24DA2-4885-48AF-B8C6-2BEF9E8D837F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C24DA2-4885-48AF-B8C6-2BEF9E8D837F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +110,8 @@ Global
 		{0992FDF7-E041-457E-946F-7D5AE847A036} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
 		{54FEEFAF-0997-485F-94A8-FF9A9F908A06} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
 		{2E715E9D-041E-4139-A597-EEC83B08947E} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
+		{C2C24DA2-4885-48AF-B8C6-2BEF9E8D837F} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
+		{515D4288-5766-4242-BE9B-7F46AA3CD826} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6837CE1-1347-4004-BCBA-84856C297AE0}
