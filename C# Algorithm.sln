@@ -42,6 +42,20 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. DesignTechnique", "09. DesignTechnique\09. DesignTechnique.csproj", "{C2C24DA2-4885-48AF-B8C6-2BEF9E8D837F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09. DesignTechnique", "09. DesignTechnique", "{515D4288-5766-4242-BE9B-7F46AA3CD826}"
+	ProjectSection(SolutionItems) = preProject
+		HomeWork\09. Greedy.cs = HomeWork\09. Greedy.cs
+		HomeWork\09. Hanoi.cs = HomeWork\09. Hanoi.cs
+		HomeWork\09. N과 M.cs = HomeWork\09. N과 M.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Sort", "10. Sort\10. Sort.csproj", "{94529DDF-8D7F-426A-BBA0-E46738B52D78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10. Divide&Sorting-Algorithm", "10. Divide&Sorting-Algorithm", "{65864C4A-F240-419F-A781-8C948A4B8F85}"
+	ProjectSection(SolutionItems) = preProject
+		HomeWork\10. Algorithm.txt = HomeWork\10. Algorithm.txt
+		HomeWork\10. DivideAndConquer.cs = HomeWork\10. DivideAndConquer.cs
+		HomeWork\10. LinearSortingAlgorithm.cs = HomeWork\10. LinearSortingAlgorithm.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +107,10 @@ Global
 		{C2C24DA2-4885-48AF-B8C6-2BEF9E8D837F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2C24DA2-4885-48AF-B8C6-2BEF9E8D837F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2C24DA2-4885-48AF-B8C6-2BEF9E8D837F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94529DDF-8D7F-426A-BBA0-E46738B52D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94529DDF-8D7F-426A-BBA0-E46738B52D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94529DDF-8D7F-426A-BBA0-E46738B52D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94529DDF-8D7F-426A-BBA0-E46738B52D78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -112,6 +130,8 @@ Global
 		{2E715E9D-041E-4139-A597-EEC83B08947E} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
 		{C2C24DA2-4885-48AF-B8C6-2BEF9E8D837F} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
 		{515D4288-5766-4242-BE9B-7F46AA3CD826} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
+		{94529DDF-8D7F-426A-BBA0-E46738B52D78} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
+		{65864C4A-F240-419F-A781-8C948A4B8F85} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6837CE1-1347-4004-BCBA-84856C297AE0}
