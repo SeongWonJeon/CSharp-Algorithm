@@ -1,0 +1,82 @@
+﻿0에서 출발
+Vertex		Known		Cost		Path
+	0		  T			 x			 x		0
+	1		  T			 7			 0		0 1
+	2		  T			 13			 1		0 1 2
+	3		  T			 10			 1		0 1 3
+	4		  T			 5			 0		0 4
+	5		  T			 10			 6		0 4 6 5
+	6		  T			 9			 4		0 4 6
+	7		  T			 13			 5		0 4 6 5 7
+1에서 출발
+Vertex		Known		Cost		Path
+	1		  T			 x			 x		1
+	2		  T			 6			 1		1 2
+	3		  T			 3			 1		1 3
+	4		  T			 9			 6		1 5 6 4
+	5		  T			 4			 1      1 5
+	6		  T			 5			 5		1 5 6
+	7		  T			 7			 5		1 5 7
+	0		  T			 7			 1		1 0 
+2에서 출발
+Vertex		Known		Cost		Path
+	2		  T			 x			 x		나머지는 맞는지만 확인하였습니다.
+	3		  T			 9			 1
+	4		  T			 15			 6
+	5		  T			 10			 1
+	6		  T			 11			 5
+	7		  T			 13			 5
+	0		  T			 13			 1
+	1		  T			 6			 2
+3에 출발
+Vertex		Known		Cost		Path
+	3		  T			 x			 x
+	4		  T			 12			 6
+	5		  T			 7			 1
+	6		  T			 8			 5
+	7		  T			 10			 5
+	0		  T			 10			 1
+	1		  T			 3			 3
+	2		  T			 9			 1
+4에서 출발
+Vertex		Known		Cost		Path
+	4		  T			 x			 x
+	5		  T			 5			 6
+	6		  T			 4			 4
+	7		  T			 8			 5
+	0		  T			 5			 4
+	1		  T			 9			 5
+	2		  T			 15			 1
+	3		  T			 12			 1
+5에서 출발
+Vertex		Known		Cost		Path
+	5		  T			 x			 x
+	6		  T			 1			 5
+	7		  T			 3			 5
+	0		  T			 10			 4
+	1		  T			 4			 5
+	2		  T			 10			 1
+	3		  T			 7			 1
+	4		  T			 5			 6
+	
+6에서 출발
+Vertex		Known		Cost		Path
+	6		  T			 x			 x
+	7		  T			 4			 5
+	0		  T			 9			 4
+	1		  T			 5			 5
+	2		  T			 11			 1
+	3		  T			 8			 1
+	4		  T			 4			 6
+	5		  T			 1			 6
+
+7에서 출발
+Vertex		Known		Cost		Path
+	7		  T			 x			 x
+	0		  T			 13			 4
+	1		  T			 7			 5
+	2		  T			 13			 1
+	3		  T			 10			 1
+	4		  T			 8			 6
+	5		  T			 3			 7
+	6		  T			 4			 5
