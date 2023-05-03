@@ -61,6 +61,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Searching", "11. Search
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. ShortestPath", "12. ShortestPath\12. ShortestPath.csproj", "{181275CA-3EF8-4C11-BE03-D608EAF1DC43}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12. DijkstraShortestPath", "12. DijkstraShortestPath", "{50B37124-1316-4B10-ABFB-0353048EA4E3}"
+	ProjectSection(SolutionItems) = preProject
+		HomeWork\12. ShortestPath.cs = HomeWork\12. ShortestPath.cs
+		HomeWork\DijkstraShortestPath.txt = HomeWork\DijkstraShortestPath.txt
+		HomeWork\제목 없음.png = HomeWork\제목 없음.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -146,6 +153,7 @@ Global
 		{65864C4A-F240-419F-A781-8C948A4B8F85} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
 		{5B4D07A7-831E-4782-9F65-4B3D595DE6BA} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
 		{181275CA-3EF8-4C11-BE03-D608EAF1DC43} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
+		{50B37124-1316-4B10-ABFB-0353048EA4E3} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6837CE1-1347-4004-BCBA-84856C297AE0}

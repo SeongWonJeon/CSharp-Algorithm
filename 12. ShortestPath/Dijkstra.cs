@@ -38,11 +38,12 @@ namespace _12._ShortestPath
                 int minCost = INF;
                 for (int j = 0; j < size; j++)
                 {
+                    // 정점j가 방문되지 않았거나, 정점 j와의 거리가 현재까지 구한 거리보다 짧으면
                     if (!visited[j] && distance[j] < minCost)
                     {
-                        // 가장작은 정점
+                        // 방문한 j의 거리가 방문한 정점과의 거리가 되고
                         next = j;
-                        // 가장작은 정점의 최소값
+                        // 현재거리를 정점 j와의 거리로 지정
                         minCost = distance[j];
                     }
                 }

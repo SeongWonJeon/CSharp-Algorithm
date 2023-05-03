@@ -2,7 +2,7 @@
 {
     internal class Program
     {
-        const int INF = 99999;
+        const int INF = -1;
 
         static void Main(string[] args)
         {
