@@ -76,7 +76,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13. PathFinding", "13. Path
 		HomeWork\스크린샷 2023-05-04 102955.png = HomeWork\스크린샷 2023-05-04 102955.png
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project TextRPG", "project TextRPG\project TextRPG.csproj", "{6FD40E9F-A0A7-4C90-8ABB-992A5A6DC383}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "project TextRPG", "project TextRPG\project TextRPG.csproj", "{6FD40E9F-A0A7-4C90-8ABB-992A5A6DC383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projectTextRPG1", "projectTextRPG1\projectTextRPG1.csproj", "{D526DE3F-1B46-40F6-86E0-03487FA36DA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -148,6 +150,10 @@ Global
 		{6FD40E9F-A0A7-4C90-8ABB-992A5A6DC383}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FD40E9F-A0A7-4C90-8ABB-992A5A6DC383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FD40E9F-A0A7-4C90-8ABB-992A5A6DC383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D526DE3F-1B46-40F6-86E0-03487FA36DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D526DE3F-1B46-40F6-86E0-03487FA36DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D526DE3F-1B46-40F6-86E0-03487FA36DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D526DE3F-1B46-40F6-86E0-03487FA36DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -175,6 +181,7 @@ Global
 		{1BC49B33-4A83-498E-AD23-D725D6125AD1} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
 		{CE4D22EB-0EFE-40AE-B751-AFCEF672D956} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
 		{6FD40E9F-A0A7-4C90-8ABB-992A5A6DC383} = {A044A5A5-9029-460F-96CD-CBE009CE0964}
+		{D526DE3F-1B46-40F6-86E0-03487FA36DA4} = {996FA497-EA90-4866-9FD1-5BAFF9B4529C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F6837CE1-1347-4004-BCBA-84856C297AE0}

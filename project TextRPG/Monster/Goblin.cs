@@ -26,6 +26,11 @@ namespace project_TextRPG
 
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("     ");
+            sb.AppendLine("     ");
+            sb.AppendLine("     ");
+            sb.AppendLine("     ");
+            sb.AppendLine("     ");
+            sb.AppendLine("     ");
             image = sb.ToString();
 
         }
